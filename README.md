@@ -112,14 +112,15 @@ mode → “generate” o “chat”
 timeout → tempo massimo di risposta
 
 ## 🧠 Elenco funzioni disponibili
-Macro	Funzione
-ai_migliora_replace	Migliora la forma e la fluidità del testo
-ai_editing_replace	Corregge solo errori minori
-ai_riassunto_replace	Riassume in poche frasi
-ai_traduci_it_replace	Traduce in italiano
-ai_bullets_replace	Converte in elenco puntato
-ai_spiega_replace	Spiega in modo semplice
-ai_sinonimi_show	Mostra sinonimi (popup, non modifica il testo)
+| Macro | Funzione |
+|:--------------------------|:--------------------------------------------|
+| ai_migliora_replace | Migliora la forma e la fluidità del testo |
+| ai_editing_replace | Corregge solo errori minori |
+| ai_riassunto_replace | Riassume in poche frasi |
+| ai_traduci_it_replace | Traduce in italiano |
+| ai_bullets_replace | Converte in elenco puntato |
+| ai_spiega_replace | Spiega in modo semplice |
+| ai_sinonimi_show | Mostra sinonimi (popup, non modifica il testo) |
 
 ## 🚀 Esempio d’uso
 Seleziona un paragrafo
