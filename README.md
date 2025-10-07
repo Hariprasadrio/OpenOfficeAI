@@ -1,5 +1,5 @@
 ![FocusCatalog Screenshot](Sample_1.png)
-# 🧠 Ollama AI Macro for OpenOffice / LibreOffice (Italiano)
+# 🧠 Ollama AI Macro per OpenOffice / LibreOffice (Italiano)
 **💡** Questo progetto nasce per rendere l’AI accessibile anche all’interno di OpenOffice, offrendo strumenti di scrittura intelligenti ma completamente offline.
 ---
 **Autore:** [MetaDarko](https://github.com/ShinRalexis)  
@@ -117,6 +117,7 @@ timeout → tempo massimo di risposta
 ```bash
 ollama pull gemma3:12b
 ```
+"Gemma 3 12B" rimane un ottima scelata per precisione e prestazioni.
 
 ## 🧠 Elenco funzioni disponibili
 | Macro | Funzione |
