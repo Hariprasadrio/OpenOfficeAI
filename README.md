@@ -2,8 +2,6 @@
 # 🧠 Ollama AI Macro for OpenOffice / LibreOffice
 **Autore:** [MetaDarko](https://github.com/ShinRalexis)  
 **Anno:** 2025  
-**Licenza:** Apache 2.0  
-
 ---
 
 ## 📖 Introduzione
