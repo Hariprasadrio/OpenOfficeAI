@@ -131,7 +131,7 @@ Attendi la risposta dal modello locale
 
 Il testo verrà automaticamente sostituito con la versione migliorata
 
-##❗ Requisiti
+## ❗ Requisiti
 Ollama installato e in esecuzione localmente
 👉 https://ollama.ai
 
