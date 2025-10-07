@@ -1,5 +1,5 @@
 ![FocusCatalog Screenshot](Sample_1.png)
-# 🧠 Ollama AI Macro for OpenOffice / LibreOffice
+# 🧠 Ollama AI Macro for OpenOffice / LibreOffice (Italan)
 **💡** Questo progetto nasce per rendere l’AI accessibile anche all’interno di OpenOffice, offrendo strumenti di scrittura intelligenti ma completamente offline.
 ---
 **Autore:** [MetaDarko](https://github.com/ShinRalexis)  
