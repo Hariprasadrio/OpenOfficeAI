@@ -57,9 +57,6 @@ Ti troverai davanti a una finestra simile a questa:
 Apri il ramo:
 Macro personali > ollama_ai
 
-css
-Copia codice
-
 Troverai i seguenti comandi:
 ai_editing_replace
 ai_migliora_replace
@@ -68,9 +65,6 @@ ai_traduci_it_replace
 ai_bullets_replace
 ai_spiega_replace
 ai_sinonimi_show
-
-yaml
-Copia codice
 
 Seleziona uno di questi e premi **Esegui** per usarlo sul testo selezionato nel documento.
 
@@ -106,6 +100,7 @@ SETTINGS = {
     "timeout": 180,
     "prepend_system_to_generate": False
 }
+```
 Puoi modificare:
 
 model → il nome del modello Ollama installato
