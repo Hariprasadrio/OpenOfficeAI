@@ -1,4 +1,4 @@
-![FocusCatalog Screenshot](public/sample_1.jpg)
+![FocusCatalog Screenshot](Sample_1.png)
 # 🧠 Ollama AI Macro for OpenOffice / LibreOffice
 **Autore:** [MetaDarko](https://github.com/ShinRalexis)  
 **Anno:** 2025  
@@ -52,7 +52,7 @@ Apri **Writer** → vai su **Strumenti ▸ Macro ▸ Esegui macro...**
 
 Ti troverai davanti a una finestra simile a questa:
 
-📷 *(inserisci qui l’immagine `f63a9e5a-d84e-4bbb-a4d8-f4d91df8e108.png`)*
+![FocusCatalog Screenshot](Sample_2.png)
 
 Apri il ramo:
 Macro personali > ollama_ai
@@ -87,7 +87,7 @@ Puoi aggiungere ogni macro come **pulsante nella barra degli strumenti**.
 5. Scegli la macro che vuoi aggiungere (es. `ai_migliora_replace`)  
 6. Premi **Aggiungi**, poi **OK**
 
-![FocusCatalog Screenshot](public/sample_2.jpg)
+
 
 > 💡 Puoi rinominare i pulsanti e scegliere un’icona diversa (es. quella di sistema “ABC” per le funzioni linguistiche).
 
