@@ -1,6 +1,6 @@
 ![FocusCatalog Screenshot](public/sample_1.jpg)
 # 🧠 Ollama AI Macro for OpenOffice / LibreOffice
-**Autore:** [MetaDarko (Norberto Grispino)](https://github.com/ShinRalexis)  
+**Autore:** [MetaDarko](https://github.com/ShinRalexis)  
 **Anno:** 2025  
 **Licenza:** Apache 2.0  
 
