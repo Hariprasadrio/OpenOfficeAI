@@ -1,8 +1,9 @@
 ![FocusCatalog Screenshot](Sample_1.png)
 # 🧠 Ollama AI Macro for OpenOffice / LibreOffice
-**Autore:** [MetaDarko](https://github.com/ShinRalexis)  
-**Anno:** 2025  
+**💡** Questo progetto nasce per rendere l’AI accessibile anche all’interno di OpenOffice, offrendo strumenti di scrittura intelligenti ma completamente offline.
 ---
+**Autore:** [MetaDarko](https://github.com/ShinRalexis)  
+**Anno:** 2025
 
 ## 📖 Introduzione
 
@@ -147,16 +148,4 @@ Puoi modificarlo e ridistribuirlo liberamente, citando l’autore.
 
 ## 🐞 Segnalazione bug
 Se trovi un problema o un comportamento anomalo, apri una Issue su GitHub oppure scrivimi:
-👉 Segnala un bug o richiedi supporto
-
-## 📦 Riepilogo
-Tipo	Percorso / Azione
-File principale	ollama_ai.py
-Percorso installazione	C:\Users\<nome>\AppData\Roaming\OpenOffice\4\user\Scripts\python
-Compatibilità	OpenOffice / LibreOffice
-Linguaggio	Python (integrato)
-Connessione	Locale (Ollama API)
-Autore	MetaDarko
-
-💡 Questo progetto nasce per rendere l’AI accessibile anche all’interno di OpenOffice, offrendo strumenti di scrittura intelligenti ma completamente offline.
-
+👉 Segnala un bug o richiedi supporto.
