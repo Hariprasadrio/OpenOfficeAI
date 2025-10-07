@@ -111,7 +111,7 @@ mode → “generate” o “chat”
 
 timeout → tempo massimo di risposta
 
-🧠 Elenco funzioni disponibili
+## 🧠 Elenco funzioni disponibili
 Macro	Funzione
 ai_migliora_replace	Migliora la forma e la fluidità del testo
 ai_editing_replace	Corregge solo errori minori
@@ -121,7 +121,7 @@ ai_bullets_replace	Converte in elenco puntato
 ai_spiega_replace	Spiega in modo semplice
 ai_sinonimi_show	Mostra sinonimi (popup, non modifica il testo)
 
-🚀 Esempio d’uso
+## 🚀 Esempio d’uso
 Seleziona un paragrafo
 
 Premi il pulsante “AI Migliora” (o avvia la macro corrispondente)
@@ -130,7 +130,7 @@ Attendi la risposta dal modello locale
 
 Il testo verrà automaticamente sostituito con la versione migliorata
 
-❗ Requisiti
+##❗ Requisiti
 Ollama installato e in esecuzione localmente
 👉 https://ollama.ai
 
@@ -140,23 +140,22 @@ Python incluso in OpenOffice o LibreOffice
 
 Accesso a Internet non necessario
 
-🧩 Licenza
+## 🧩 Licenza
 Questo progetto è rilasciato sotto licenza Apache 2.0.
 Puoi modificarlo e ridistribuirlo liberamente, citando l’autore.
 
-🐞 Segnalazione bug
+## 🐞 Segnalazione bug
 Se trovi un problema o un comportamento anomalo, apri una Issue su GitHub oppure scrivimi:
 👉 Segnala un bug o richiedi supporto
 
-📦 Riepilogo
+## 📦 Riepilogo
 Tipo	Percorso / Azione
 File principale	ollama_ai.py
 Percorso installazione	C:\Users\<nome>\AppData\Roaming\OpenOffice\4\user\Scripts\python
 Compatibilità	OpenOffice / LibreOffice
 Linguaggio	Python (integrato)
 Connessione	Locale (Ollama API)
-Autore	MetaDarko (Norberto Grispino)
-Licenza	Apache 2.0
+Autore	MetaDarko
 
 💡 Questo progetto nasce per rendere l’AI accessibile anche all’interno di OpenOffice, offrendo strumenti di scrittura intelligenti ma completamente offline.
 
