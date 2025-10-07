@@ -112,6 +112,12 @@ mode → “generate” o “chat”
 
 timeout → tempo massimo di risposta
 
+#### 👉 In alternativa puoi scaricare "Gemma 3 12B" in Ollama e lasciare tutto invariato (Consigliato):
+
+```bash
+ollama pull gemma3:12b
+```
+
 ## 🧠 Elenco funzioni disponibili
 | Macro | Funzione |
 |:--------------------------|:--------------------------------------------|
